@@ -15,6 +15,9 @@
 		84BE2B771CBCCA4F008A9E2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BE2B751CBCCA4F008A9E2B /* LaunchScreen.storyboard */; };
 		84BE2B821CBCCA50008A9E2B /* CATransitionToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE2B811CBCCA50008A9E2B /* CATransitionToolDemoTests.m */; };
 		84BE2B8D1CBCCA50008A9E2B /* CATransitionToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE2B8C1CBCCA50008A9E2B /* CATransitionToolDemoUITests.m */; };
+		84BE2B9C1CBCCA6A008A9E2B /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BE2B9A1CBCCA6A008A9E2B /* 01.jpg */; };
+		84BE2B9D1CBCCA6A008A9E2B /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BE2B9B1CBCCA6A008A9E2B /* 02.jpg */; };
+		84BE2BA61CBCCACD008A9E2B /* CATransitionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE2BA51CBCCACD008A9E2B /* CATransitionTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		84BE2B881CBCCA50008A9E2B /* CATransitionToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATransitionToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BE2B8C1CBCCA50008A9E2B /* CATransitionToolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransitionToolDemoUITests.m; sourceTree = "<group>"; };
 		84BE2B8E1CBCCA50008A9E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BE2B9A1CBCCA6A008A9E2B /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		84BE2B9B1CBCCA6A008A9E2B /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		84BE2BA41CBCCACD008A9E2B /* CATransitionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionTool.h; sourceTree = "<group>"; };
+		84BE2BA51CBCCACD008A9E2B /* CATransitionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,8 @@
 		84BE2B5B1CBCCA4F008A9E2B = {
 			isa = PBXGroup;
 			children = (
+				84BE2B9A1CBCCA6A008A9E2B /* 01.jpg */,
+				84BE2B9B1CBCCA6A008A9E2B /* 02.jpg */,
 				84BE2B661CBCCA4F008A9E2B /* CATransitionToolDemo */,
 				84BE2B801CBCCA50008A9E2B /* CATransitionToolDemoTests */,
 				84BE2B8B1CBCCA50008A9E2B /* CATransitionToolDemoUITests */,
@@ -105,6 +114,8 @@
 				84BE2B6B1CBCCA4F008A9E2B /* AppDelegate.m */,
 				84BE2B6D1CBCCA4F008A9E2B /* ViewController.h */,
 				84BE2B6E1CBCCA4F008A9E2B /* ViewController.m */,
+				84BE2BA41CBCCACD008A9E2B /* CATransitionTool.h */,
+				84BE2BA51CBCCACD008A9E2B /* CATransitionTool.m */,
 				84BE2B701CBCCA4F008A9E2B /* Main.storyboard */,
 				84BE2B731CBCCA4F008A9E2B /* Assets.xcassets */,
 				84BE2B751CBCCA4F008A9E2B /* LaunchScreen.storyboard */,
@@ -243,8 +254,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BE2B9D1CBCCA6A008A9E2B /* 02.jpg in Resources */,
 				84BE2B771CBCCA4F008A9E2B /* LaunchScreen.storyboard in Resources */,
 				84BE2B741CBCCA4F008A9E2B /* Assets.xcassets in Resources */,
+				84BE2B9C1CBCCA6A008A9E2B /* 01.jpg in Resources */,
 				84BE2B721CBCCA4F008A9E2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +285,7 @@
 			files = (
 				84BE2B6F1CBCCA4F008A9E2B /* ViewController.m in Sources */,
 				84BE2B6C1CBCCA4F008A9E2B /* AppDelegate.m in Sources */,
+				84BE2BA61CBCCACD008A9E2B /* CATransitionTool.m in Sources */,
 				84BE2B691CBCCA4F008A9E2B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
